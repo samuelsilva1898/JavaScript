@@ -1,0 +1,17 @@
+var funcionarios=[
+  "Barbara",
+  "Carlos",
+  "Helena",
+  "Maria",
+  "Rogerio"
+];
+console.log(funcionarios);
+
+var novos_funcionarios=[
+  "Guilherme", "jessica"
+];
+
+funcionarios[0]=novos_funcionarios[1];
+funcionarios[4]=novos_funcionarios[0];
+
+console.log(funcionarios);
